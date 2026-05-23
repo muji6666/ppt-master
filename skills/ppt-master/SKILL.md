@@ -174,7 +174,7 @@ There is no slug matching, no name lookup, no fuzzy resolution. A name without a
 
 #### Three template kinds
 
-The architecture has three independent reference bundles. Full schema in [`docs/zh/templates-architecture.md`](../../docs/zh/templates-architecture.md). Summary:
+The architecture has three independent reference bundles. Full schema in [`docs/zh/templates-architecture.md`](./docs/zh/templates-architecture.md). Summary:
 
 | Kind | Physical dir | Contains | Frontmatter |
 |---|---|---|---|
@@ -559,4 +559,4 @@ Before switching roles, **MUST first read** the corresponding reference file. Ou
 ## Notes
 
 - Local preview: `python3 -m http.server -d <project_path>/svg_final 8000`
-- **Troubleshooting**: on generation issues (layout overflow, export errors, blank images, etc.), check `docs/faq.md` for known solutions
+- **Troubleshooting**: on generation issues (layout overflow, export errors, blank images, etc.), check `./docs/faq.md` for known solutions

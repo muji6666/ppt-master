@@ -2,7 +2,7 @@
 """Register a brand / layout / deck template into the global template index.
 
 Three kinds, three physical directories, three index files (see
-``docs/zh/templates-architecture.md`` for the data model):
+``../docs/zh/templates-architecture.md`` for the data model):
 
 | --kind  | Source dir              | Index file                    |
 |---------|-------------------------|-------------------------------|

@@ -96,7 +96,7 @@ python3 skills/ppt-master/scripts/svg_to_pptx.py <project> --animation-trigger o
 
 `on-click` is for live presentations. Narrated/video export via `--recorded-narration` rejects it because PPT Master writes page timings, not object-level click timings; use `after-previous` or `with-previous` for narrated decks.
 
-Full effect list, anchor logic (top-level `<g id="...">`), fallback behavior, and limitations: see [Animations & Transitions](../skills/ppt-master/references/animations.md).
+Full effect list, anchor logic (top-level `<g id="...">`), fallback behavior, and limitations: see [Animations & Transitions](../references/animations.md).
 
 ## Q: Which AI model works best?
 
@@ -178,4 +178,4 @@ The AI agent will handle the rest — analyzing your screenshots, building the l
 
 ---
 
-> For more questions, see [SKILL.md](../skills/ppt-master/SKILL.md) and [AGENTS.md](../AGENTS.md)
+> For more questions, see [SKILL.md](../SKILL.md) and the `AGENTS.md` at the repository root.
